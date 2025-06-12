@@ -362,6 +362,24 @@ export default function Portfolio() {
         </div>
       </section>
 
+      {/* Sección de descarga de CV */}
+      <section className="section section-alt">
+        <div className="container" style={{ maxWidth: 500, margin: '0 auto', textAlign: 'center' }}>
+          <h2 className="section-title mb-md">Descargar CV</h2>
+          <p className="text-secondary mb-lg">Puedes descargar mi currículum actualizado en PDF.</p>
+          <Button
+            href="/CV Tec Univ Prog - Morales Mauro 2025.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="primary"
+            size="lg"
+            download
+          >
+            Descargar CV
+          </Button>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="footer">
         <div className="container">
