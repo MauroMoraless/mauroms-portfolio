@@ -582,16 +582,20 @@ body {
   }
   .profile-image,
   .profile-image-inner {
-    width: 100vw !important;
+    width: 90vw !important;
     max-width: 320px;
-    height: auto !important;
+    height: 90vw !important;
+    max-height: 320px;
     min-width: 0;
+    min-height: 0;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50% !important;
+    overflow: hidden;
   }
   .profile-image-inner img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     border-radius: 50%;
   }
