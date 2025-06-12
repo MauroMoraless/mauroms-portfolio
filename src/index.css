@@ -561,6 +561,26 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .hero {
+    overflow-x: hidden;
+    width: 100vw;
+    min-width: 0;
+  }
+  .container {
+    overflow-x: hidden;
+    width: 100vw;
+    min-width: 0;
+  }
+  .grid-2 {
+    overflow-x: hidden;
+    min-width: 0;
+  }
+  .hero-content, .hero-image-container {
+    min-width: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
   .container {
     padding: 0 var(--spacing-sm);
   }
