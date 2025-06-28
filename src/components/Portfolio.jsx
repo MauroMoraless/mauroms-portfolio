@@ -50,18 +50,18 @@ export default function Portfolio() {
       name: "Resolución de Problemas",
       icon: Puzzle,
       description:
-        "Capacidad para analizar y resolver desafíos técnicos complejos",
+        "Capacidad para analizar situaciones y encontrar soluciones técnicas efectivas",
     },
     {
       name: "Trabajo en Equipo",
       icon: Users,
-      description: "Colaboración efectiva en equipos multidisciplinarios",
+      description: "Buena comunicación y colaboración con distintos perfiles",
     },
     {
       name: "Adaptación",
       icon: Lightbulb,
       description:
-        "Flexibilidad para aprender nuevas tecnologías y metodologías",
+        "Rápido aprendizaje de nuevas tecnologías y formas de trabajo",
     },
   ];
 
@@ -91,17 +91,14 @@ export default function Portfolio() {
                 Desarrollador Full Stack
               </p>
               <p className="text-lg text-secondary mb-xl">
-                Desarrollador apasionado por crear soluciones tecnológicas
-                innovadoras. Especializado en desarrollo web full stack con
-                experiencia en Node.js, React y PostgreSQL. Me motiva resolver
-                problemas complejos y contribuir al crecimiento de equipos de
-                desarrollo.
+                Apasionado por crear soluciones tecnológicas que hagan la
+                diferencia. Me especializo en desarrollo web full stack y tengo
+                experiencia práctica con Node.js, React y PostgreSQL. Disfruto
+                resolver problemas complejos y sumar valor a los equipos con los
+                que trabajo.
               </p>
               <div className="flex gap-md">
-                <Button
-                  href="mailto:moralesmaurot6@gmail.com"
-                  size="lg"
-                >
+                <Button href="mailto:moralesmaurot6@gmail.com" size="lg">
                   <Mail className="w-4 h-4 mr-2" />
                   Contactar
                 </Button>
@@ -156,20 +153,21 @@ export default function Portfolio() {
 
           <div className="about-content text-center">
             <p className="text-secondary mb-md">
-              Egresado de la Tecnicatura Universitaria en Programación de UTN
-              FRA, con sólida formación en desarrollo de software y experiencia
-              práctica en tecnologías modernas como Node.js, React y PostgreSQL.
+              Soy egresado de la Tecnicatura Universitaria en Programación de
+              UTN FRA, con una base sólida en desarrollo de software y
+              experiencia en tecnologías actuales como Node.js, React y
+              PostgreSQL.
             </p>
             <p className="text-secondary mb-md">
-              Mi enfoque se centra en la actitud proactiva, el aprendizaje
-              constante y la búsqueda de soluciones eficientes. Tengo gran
-              pasión por mantenerme actualizado con las últimas tendencias
-              tecnológicas y contribuir al crecimiento de equipos de desarrollo.
+              Me caracteriza una actitud proactiva, el aprendizaje constante y
+              la búsqueda de soluciones prácticas y eficientes. Me gusta
+              mantenerme al día con las nuevas tendencias del sector y aportar a
+              equipos de desarrollo con compromiso y responsabilidad.
             </p>
             <p className="text-secondary">
-              Busco oportunidades para crecer profesionalmente en el área IT,
-              aportando mis conocimientos técnicos y mi compromiso con la
-              excelencia en cada proyecto.
+              Estoy en búsqueda de oportunidades para seguir creciendo
+              profesionalmente en el mundo IT, aportando mis conocimientos y
+              dejando huella en cada proyecto.
             </p>
           </div>
         </div>
@@ -189,11 +187,11 @@ export default function Portfolio() {
                 <CardHeader>
                   <CardTitle>Sistema de Gestión de Informes Técnicos</CardTitle>
                   <CardDescription>
-                    Plataforma web que automatiza la carga y el control de
-                    informes técnicos de campo para empresas. Permite la gestión
-                    integral de usuarios y roles, almacenamiento de archivos
-                    multimedia, geolocalización y un panel administrativo
-                    avanzado.
+                    Una plataforma web que automatiza la carga y gestión de
+                    informes técnicos de campo para empresas. Permite
+                    administrar usuarios, roles, archivos multimedia,
+                    geolocalización y cuenta con un panel administrativo
+                    completo.
                   </CardDescription>
                 </CardHeader>
 
@@ -312,10 +310,13 @@ export default function Portfolio() {
             <h2 className="section-title">Contacto</h2>
             <div className="section-divider mb-md"></div>
             <p className="text-lg text-secondary">
-              ¿Te gustaría contactarme? Aquí tienes mis datos de contacto directo.
+              ¿Querés charlar o tenés una propuesta? Acá te dejo mis datos:
             </p>
           </div>
-          <div className="contact-info" style={{ maxWidth: 500, margin: '0 auto' }}>
+          <div
+            className="contact-info"
+            style={{ maxWidth: 500, margin: "0 auto" }}
+          >
             <div className="contact-links">
               <a
                 href="mailto:moralesmaurot6@gmail.com"
@@ -340,7 +341,9 @@ export default function Portfolio() {
                 </div>
                 <div>
                   <p className="contact-link-title">LinkedIn</p>
-                  <p className="contact-link-text">linkedin.com/in/mauro-morales-478a801a9</p>
+                  <p className="contact-link-text">
+                    linkedin.com/in/mauro-morales-478a801a9
+                  </p>
                 </div>
               </a>
               <a
@@ -364,9 +367,14 @@ export default function Portfolio() {
 
       {/* Sección de descarga de CV */}
       <section className="section section-alt">
-        <div className="container" style={{ maxWidth: 500, margin: '0 auto', textAlign: 'center' }}>
+        <div
+          className="container"
+          style={{ maxWidth: 500, margin: "0 auto", textAlign: "center" }}
+        >
           <h2 className="section-title mb-md">Descargar CV</h2>
-          <p className="text-secondary mb-lg">Puedes descargar mi currículum actualizado en PDF.</p>
+          <p className="text-secondary mb-lg">
+            Puedes descargar mi currículum actualizado en PDF.
+          </p>
           <Button
             href="/CV Tec Univ Prog - Morales Mauro 2025.pdf"
             target="_blank"
